@@ -1,0 +1,23 @@
+<html>
+<body>
+INTER STRING:
+<input type="text" id="p1"<br>
+<input type="button" value="okk" onclick="count()"><br>
+</body>
+</html>
+<script>
+function count(){
+ var s1=document.getElementById("p1").value;
+var c=0;
+
+for (var i=0;i<s1.length;i++){
+
+if (s1.charAt(i)=="a"||s1.charAt=="A"||s1.charAt(i)=="e"||s1.charAt(i)=="E"||s1.charAt(i)=="i"||s1.charAt(i)=="I"||s1.charAt(i)=="o"||s1.charAt(i)=="O"||s1.charAt(i)=="u"||s1.charAt(i)=="U"){
+c++;
+}
+}
+document.write(c);
+
+
+}
+</script>

@@ -1,0 +1,68 @@
+#g{
+    color:deeppink;
+    
+     text-decoration-line: none;
+     font-size:20px;
+}
+#b{
+ 
+ color:black;
+ font-family:perfect;
+ text-align:center;
+font-weight:700px;
+
+
+
+
+}
+
+#p{
+ text-align: center;
+
+}
+
+
+body {
+
+    background-image:url(me);
+     background-repeat:repeat;
+       height: 100px;
+         width : 100%; 
+         
+}
+#o{
+
+text-align:center;
+ text-decoration:underline;
+}
+
+.center{
+  justify-content: center;
+    display: flex;
+
+  
+}
+
+.center img{
+  border: 10px solid;
+  width:280px ;
+}
+
+
+#ji {
+  font-size:xx-large;
+  font-family:Britannic Bold;
+}
+
+.for{
+   font-family:Britannic Bold;
+   border-color: black;
+   text-align: center; 
+
+
+}
+
+
+
+
+

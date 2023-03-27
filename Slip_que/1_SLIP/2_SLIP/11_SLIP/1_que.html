@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <form>
+            ENTER STRING:
+            <input type="text" id="p1"><br>
+            ENTER CHAR:
+            <input type="text" id="p2"><br>
+            <input type="button" value="check" onclick="count()"><br>
+        </form>
+    </body>
+</html>
+<script>
+    function count(){
+        var str=document.getElementById("p1").value;
+        var ch=document.getElementById("p2").value;
+        var flag=0;
+        for (var j=0;j<str.length;j++){
+            if (str[j]==ch){
+                flag=j;
+                break;
+            }
+        }
+      
+if (flag==0)
+    alert("charector not found in string......");
+
+else 
+alert ("charector possition is..."+flag);
+
+    }
+</script>

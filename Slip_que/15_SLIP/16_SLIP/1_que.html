@@ -1,0 +1,36 @@
+<html>
+<body>
+ENTER STRING:
+<input type="text" id="t1"><br>
+
+<input type="button" value= "okk" onclick="check()"><br>
+
+</body>
+</html>
+
+
+
+
+<script>
+function check()
+{
+
+ var s1=document.getElementById("t1").value;
+ 
+ for (i=0;i<s1.length;i++){
+ 
+ if (s1.charAt(i)==" " ){
+ document.write("*");
+ 
+ }
+
+else if (s1.charAt(i)>="0"&& s1.charAt(i)<="9"){
+document.write("?");
+}
+else{ 
+document.write(s1.charAt(i));
+}
+}
+}
+
+</script>

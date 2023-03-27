@@ -1,0 +1,33 @@
+<html>
+<body>
+<form>
+ENTER NUMBER:
+<input type="text" id="t1"><br>
+<input type="bottom" value="okk" onclick="per()"><br>
+</form>
+</body>
+</html>
+<script>
+function per(){
+var n=document.getElementById("t1").value;
+n= parseInt(n);
+var sum=0;
+var num=n;
+for (var i=1;i<n;i++){
+
+if(n%i==0){
+sum=parseInt(sum+i);
+}
+}
+if (num==sum){
+alert('perfect');
+}
+else{
+alert('not perfect');
+
+}
+
+
+
+}
+</script>

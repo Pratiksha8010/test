@@ -1,0 +1,24 @@
+<html>
+<body>
+ENTER ARRAY ELEMENTS:
+<input type="number" id="arr1"><br>
+<input type="button" value="okk" onclick="show()">
+</body>
+</html>
+
+<script>
+function show(){
+var n=document.getElementById("arr1").value;
+
+var n = [];
+
+var s=0;
+for (var i=0;i<n.length;i++){
+s=s+n[i];
+
+}
+var avg =s/n.length;
+document.write('sum of numbers='+s);
+document.write('<br> avg of sum='+avg);
+}
+</script>

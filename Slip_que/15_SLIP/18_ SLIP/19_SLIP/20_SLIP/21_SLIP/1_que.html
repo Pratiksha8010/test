@@ -1,0 +1,28 @@
+<html>
+<body>
+ENTER x value:
+<input type="text" id="s1"><br>
+ENTER Y value:
+<input type="text" id="s2"><br>
+
+<input type="button" value="okk" onclick="sh()"><br>
+
+
+<script>
+function sh(){
+
+
+ var x= document.getElementById("s1").value;
+x=parseInt(x);
+var y=document.getElementById("s2").value;
+y=parseInt(y);
+ var a=1;
+for (var i=1;i<=y;i++){
+
+a= parseInt(a*x);
+}
+document.write(a);
+}
+</script>
+</body>
+</html>

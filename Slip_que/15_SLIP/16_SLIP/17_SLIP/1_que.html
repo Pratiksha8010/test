@@ -1,0 +1,47 @@
+<html>
+<body>
+    <form>
+ENTER STRING:
+<input type="text" id="tiksha" ><br>
+<input type="button" value="okk" onclick="check()">
+
+</form>
+</body>
+</html>
+
+<script>
+function check()
+{
+ var s1=document.getElementById("tiksha").value;
+ var a=0;
+ var e=0;
+ var m=0;
+ var o=0;
+ var u=0;
+for (var i=0; i<s1.length;i++){
+if (s1.charAt(i)==="a"||s1.charAt(i)=="A"){
+a++;
+}
+  if (s1.charAt(i)=="e"|| s1.charAt=="E"){
+    e++;
+}
+ if(s1.charAt(i)=="i" || s1.charAt=="I"){
+    m++;
+}
+  if (s1.charAt(i)=="o"||s1.charAt=="O"){
+    o++;
+}
+ if  (s1.charAt(i)=="u"|| s1.charAt=="U")
+{
+    u++;
+}
+}
+document.write(+a);
+document.write(+e);
+document.write(+m);
+document.write(+o);
+document.write(+u);
+}
+
+</script>
+

@@ -1,0 +1,30 @@
+<html>
+<body>
+<h1>ENTER NUMBER:</h1>
+<input type="text" id="t1"><br>
+<input type="button" value="okk" onclick="show()"><br>
+</body>
+</html>
+
+<script>
+function show(){
+ var n=document.getElementById("t1").value;
+n=parseInt(n);
+var c=0;
+for (var i=2;i<=n;i++){
+if(n%i==0){
+ parseInt(c++);
+break;
+}
+}
+if (c==1){
+
+document.write('number is prime...');
+}
+else{
+
+document.write('number is not prime...');
+
+}
+}
+</script>

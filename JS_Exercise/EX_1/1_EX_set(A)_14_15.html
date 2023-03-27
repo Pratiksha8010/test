@@ -1,0 +1,120 @@
+<html>
+<body>
+<form>
+ENTER NAME:
+<input type="text" id="t1" ><br>
+ENTER ADDRESS:
+<input type="text" id="t2"><br>
+ENTER CITY:
+<input type="text" id="t3" ><br>
+ENTER PIN-COD:
+<input type="text" id="t4" ><br>
+<input type="button" value="okk" onclick="disc()">
+</form>
+</body>
+</html>
+<script>
+function disc()
+{
+
+
+var s1= document.getElementById("t1").value;
+var s2= document.getElementById("t2").value;
+var s3= document.getElementById("t3").value;
+var s4= document.getElementById("t4").value;
+s4=parseInt(s4);
+
+
+
+
+flag=0;
+if (s1.length==0){
+alert ("name is empty");
+flag=1;
+
+}
+if (s4.length!=6){
+
+alert("must six digit");
+flag=1;
+
+
+
+
+}
+if (flag==0)
+{
+
+
+document.write("name="+s1);
+document.write("address="+s2);
+document.write("city="+s3);
+document.write("pincode="+s4);
+
+}
+
+</script
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+</script>

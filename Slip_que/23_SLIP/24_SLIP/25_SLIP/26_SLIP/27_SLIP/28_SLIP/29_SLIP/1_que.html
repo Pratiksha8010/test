@@ -1,0 +1,32 @@
+<html>
+    <form>
+        <body>
+            ENTER THREE NUMBERS:
+            <input type="text" id="t1"><br>
+            <input type="text" id="t2"><br>
+            <input type="text" id="t3"><br>
+            <input type="button" value="okk" onclick="cha()"><br>
+        </body>
+    </form>
+</html>
+<script>
+    function cha(){
+ var n1=document.getElementById("t1").value;
+ var n2=document.getElementById("t2").value;
+ var n3=document.getElementById("t3").value;
+ n1=parseInt(n1);
+ n2=parseInt(n2);
+ n3=parseInt(n3);
+ if (n1>n2 && n1>n3){
+    alert ("n1 is greater number...");
+ }
+ else if (n2>n1 && n2>n3){
+    alert (" n2  is greater number...");
+ }
+ else
+ {
+   alert ("n3 is greater number....");
+ }
+ }
+    
+</script>

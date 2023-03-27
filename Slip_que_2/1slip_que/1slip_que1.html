@@ -1,0 +1,34 @@
+<html>
+<body>
+<form>
+<head>
+<style>
+body{
+padding-left:500px;
+padding-right:26px;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+</style>
+</head>
+Input radius value and set the volume of a sphere<br>
+Radius:<br>
+<input type="text" id="t1"><br>
+volume:<br>
+<input type="text" id="t2"><br>
+<input type="button" value="calculate" onclick="okk()">
+</form>
+</body>
+</html>
+<script>
+function okk(){
+
+var r=document.getElementById("t1").value;
+r=parseInt(r);
+var ans;
+ans=4/3*3.14*r*r*r;
+ 
+ document.getElementById("t2").value=ans;
+}
+</script>

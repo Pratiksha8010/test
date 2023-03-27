@@ -1,0 +1,87 @@
+ body {
+    background-image: url(kkk);
+    background-repeat: no-repeat;
+    background-position: center ;
+ 
+
+}
+h1{
+border-color:deepskyblue;
+
+}
+h3 {
+ font-family:Britannic Bold;
+ font-size:200%;
+ color:orangered;
+ 
+
+}
+li{
+font-family:Cooper ;
+list-style-position:inside;
+list-style-type: disc;
+
+}
+
+
+ #amit{
+  background-image: url( p33);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  bottom: 0%;
+  left: 40%;
+  right: 0%;
+  height: 100px;
+  width:20%;
+  bottom:1%;
+}
+
+
+
+.amit{
+ background-image: url( download.jfif);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ position: fixed;
+
+ left: 0%;
+ right: 40%;
+ height: 100px;
+ width: 20%;
+ bottom:1%;
+}
+
+
+#tiksha{
+  background-image: url( picb);
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  position: fixed;
+  left: 80%;
+  right: 0%;
+  height: 100px;
+  width: 20%;
+  bottom:1%;
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+<html>
+<body>
+ENTER NUMBER:
+<input type="text" id="r1"><br>
+<input type="button" value="okk" onclick="coun()"><br>
+</body>
+</html>
+<script>
+function coun()
+{
+var n=document.getElementById("r1").value;
+n= parseInt(n);
+for (var i=1;i<=n;i++){
+
+if (i%2==1)
+document.write("<br>"+i);
+}
+}
+</script>

@@ -1,0 +1,19 @@
+<html>
+<body>
+ENTER NUMBER:
+<input type="text" id="n1"><br>
+<input type="button" value="okk" onclick="facto()">
+</body>
+</html>
+<script>
+function facto(){
+var n=document.getElementById("n1").value;
+n=parseInt(n);
+var f=1;
+for (var i=1;i<=n;i++){
+f=f*i;
+}
+alert(+f);
+}
+
+</script>

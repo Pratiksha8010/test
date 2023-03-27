@@ -1,0 +1,25 @@
+<html>
+<body>
+ENTER NUMBER:
+<input type="text"id="t1"><br>
+ENTER LIMIT:
+<input type="text" id="t2"><br>
+<input type="button" value="okk" onclick="sum()"><br>
+</body>
+</html>
+<script>
+function sum(){
+var n1=document.getElementById("t1").value;
+n1=parseInt(n1);
+var l=document.getElementById("t2").value;
+l=parseInt(l);
+var sum=0;
+for (var i=2;i<l;i++){
+if (n1%i==0){
+sum=parseInt(sum+i);
+}
+}
+alert (+sum);
+}
+
+</script>

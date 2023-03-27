@@ -1,0 +1,43 @@
+<html>
+<body>
+
+<form>
+ENTER NUMBER:
+<input type="text" id="t1" ><br>
+<input type="button" value="okk" onclick="arm()">
+</form>
+</body>
+</html>
+
+
+<script>
+function  arm()
+{
+ var n=document.getElementById("t1").value;
+n=parseInt(n);
+var n1=n;
+ var sum=0;
+ var d;
+ 
+while(n>0){
+d=n%10;
+ sum=sum+d*d*d;
+
+n=parseInt(n/10);
+}
+if (n1==sum)
+
+alert (  " number is arm");
+
+
+else 
+
+
+alert (" number is not arm");
+
+
+
+
+}
+
+</script>

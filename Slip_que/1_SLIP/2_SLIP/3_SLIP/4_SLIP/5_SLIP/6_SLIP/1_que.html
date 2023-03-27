@@ -1,0 +1,37 @@
+<html>
+    <body>
+        ENTER NUMBER:
+        <input type="text" id="t1"><br>
+        PERFET NUMBER:
+        <inptu type="text" id="t2"><br>
+            <input type="button" value="okk" onclick="per()">
+    </body>
+</html>
+<script>
+    function per()
+    {
+        flag=true;
+      var n=document.getElementById ("t1").value;
+     n=parseInt (n);
+     for (i=2;i<n;i++){
+        
+
+        if (n%i==0){
+            flag=false;
+            break; 
+    
+     }
+    }
+     if (flag==true)
+          alert("number is  prime ");
+          
+     
+     else 
+
+        alert ("number is not prime");
+     
+
+    }
+
+
+</script>

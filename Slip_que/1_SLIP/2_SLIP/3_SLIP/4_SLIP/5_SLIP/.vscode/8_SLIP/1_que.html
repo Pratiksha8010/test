@@ -1,0 +1,31 @@
+<html>
+<body>
+<form>
+ENTER STRING:
+<input type="text" id="t1" ><br>
+ENTER A CHARECTOR:
+<input type="text" id="t2"><br>
+<input type="button" value="count" onclick="coun()">
+</form>
+</body>
+</html>
+
+<script>
+
+function coun(){
+var s1=document.getElementById("t1").value; 
+var s2=document.getElementById("t2").value;
+
+var c=0; 
+var i;
+for ( i=0;i<s1.length;i++){
+    if (s1.charAt(i)===s2){
+ c++;
+}
+}
+
+alert (+c);
+}
+
+
+</script>

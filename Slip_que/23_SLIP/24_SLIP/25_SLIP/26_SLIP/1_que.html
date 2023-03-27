@@ -1,0 +1,28 @@
+<html>
+    <body>
+        ENTER STRING:
+        <input type="text" id="t1"><br>
+        <input type="button" value="okk" onclick="check()"><br>
+    </body>
+</html>
+<script>
+    function check(){
+ var s1=document.getElementById("t1").value;
+ s1=parseChar(s1);
+ var r=0;
+var d;
+var s2=s1;
+
+while(s1.length>0){
+d=s1%10;
+r=(r*10)+d;
+s1= (s1/10);
+}
+if (s1=r){
+    alert('palin...');
+}
+else{
+alert ('not palin..');
+   }
+}   
+</script>

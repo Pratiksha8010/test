@@ -1,0 +1,30 @@
+<html>
+<body>
+<form>
+ENTER NUMBER:
+<input type="text" id="t1" ><br>
+<input type="button" value="table" onclick="table()">
+</form>
+</body>
+</html>
+<script>
+function table()
+{
+ var n=document.getElementById("t1").value;
+n=parseInt(n);
+
+var m=1;
+m=parseInt(m);
+for(i=1;i<=10;i++){
+ m=i*n;
+
+
+
+
+document.write("<br>"+m);
+
+}
+
+}
+
+</script>

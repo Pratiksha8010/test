@@ -1,0 +1,95 @@
+<!--  
+ 
+ <html>
+    <body>
+        <form>
+            Enter number:
+            <input type="number" id="t1"><br>
+            
+            
+            <input type="button" value="chack" onclick="arm()">
+
+        </form>
+  
+
+<script>
+
+
+function arm(){
+console.log( "function call")
+
+
+var n=document.getElementById("t1").value;
+n=parseInt(n);
+var n1=n;
+ var sum=0;
+ while(n>0){
+
+d=n%10;
+sum=sum+d*d*d;
+n=parseInt (n/10);
+
+ }
+
+if (sum==n1)
+document.write("num is arm");
+else 
+document.write("num is not arm")
+}
+
+</script>
+</body>
+</html>
+
+-->
+ 
+   
+ 
+ <html>
+    <body>
+        <form>
+            Enter number:
+            <input type="number" id="t1"><br>
+            <input type="text" id="t2"><br>
+            
+            
+            <input type="button" value="chack" onclick="arm()">
+
+        </form>
+  
+
+<script>
+
+
+function arm(){
+
+
+
+var n=document.getElementById("t1").value;
+n=parseInt(n);
+var n1=n;
+ var sum=0;
+ while(n>0){
+
+d=n%10;
+sum=sum+d*d*d;
+n=parseInt (n/10);
+
+ }
+
+if (sum===n1)
+document.getElementById("t2").value="number is arm";
+     
+else 
+document.getElementById("t2").value="number is not arm";
+     
+}
+
+</script>
+</body>
+</html>
+
+
+ 
+ 
+

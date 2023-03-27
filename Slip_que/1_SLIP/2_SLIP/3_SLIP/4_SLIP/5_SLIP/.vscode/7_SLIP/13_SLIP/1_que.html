@@ -1,0 +1,23 @@
+<html>
+   <body>
+      <form>
+         ENTER NAME:
+         <input type="text" id="t1"><br>
+         ENTER PASSWORD:
+         <input type="password" id="t2"><br>
+         <input type="button" value="login" onclick="okk()"><br>
+      </form>
+   </body>
+</html>
+<script>
+   function okk(){
+ var v1=document.getElementById("t1").value;
+ var v2=document.getElementById("t2").value;
+if (v1=='ABC' && v2=='123'){
+   alert("login successful..........");
+}
+else {
+   alert("login not successful.....");
+}
+   }
+</script>

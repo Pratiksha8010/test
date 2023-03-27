@@ -1,0 +1,34 @@
+<html>
+<body>
+<form>
+Enter number:
+<input type="text" id="t1"><br>
+<input type="button" value="okk" onclick="star()">
+
+</form>
+</body>
+</html>
+
+<script>
+function star()
+{
+
+n=document.getElementById("t1").value;
+n=parseInt(n);
+for (var i=1;i<=n;i++)
+{
+for (var j=1;j<=i;j++){
+
+document.write("*");
+
+}
+
+document.write("<br>");
+
+
+
+}
+}
+
+
+</script>

@@ -1,0 +1,27 @@
+<html>
+<body>
+<form>
+Enter 1number:
+<input type="number"  id="t1"> <br>
+Enter 2number :
+<input type="number" id="t2"> <br>
+<input type="button" value="addition" onclick="add()">
+</form>
+</body>
+</html>
+
+<script language="javascript">
+function add()
+{
+var a= document.getElementById("t1").value;
+var b= document.getElementById ("t2").value;
+a=parseInt(a);
+b=parseInt(b);
+var c=a+b;
+document.write ("addition of two number="+c);
+
+
+}
+
+</script>
+

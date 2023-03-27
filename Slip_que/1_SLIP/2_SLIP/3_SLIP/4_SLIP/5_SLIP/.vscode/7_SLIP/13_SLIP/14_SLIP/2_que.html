@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <form>
+            ENTER NAME:
+            <input type="text" id="m"><br>
+            ENTER PASSWORD:
+            <input type="password" id="n"><br>
+            <input type="button" value="okk" onclick="show()"><br>
+        </form>
+    </body>
+</html>
+<script>
+    function show(){
+    var u=document.getElementById("m").value;
+    var m=document.getElementById("n").value;
+     if (u==m){
+        window.location="pic.webp";
+     }
+      else {
+        document.write(" please enter correct password and username...");
+      }
+
+    }
+</script>
+
+

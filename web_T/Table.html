@@ -1,0 +1,24 @@
+<html>
+<body>
+<form>
+ENTER NUMBER:
+
+<input type=" number" id="m"><br>
+<input type=" button" value="Table" onclick="show()">
+</form>
+</body>
+
+</html>
+<script language="javascript">
+function show()
+{
+var n=document.getElementById("m").value;
+var n=parseInt(n);
+for (i=1;i<=10;i++)
+{
+document.write("<br>" +i*n);
+
+} 
+
+}
+</script>

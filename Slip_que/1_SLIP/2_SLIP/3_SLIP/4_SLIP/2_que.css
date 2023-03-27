@@ -1,0 +1,49 @@
+#o {
+    font-family:"Impact"; 
+    color:chocolate;
+}
+#p {
+    font-family:"Italic"; 
+    color:darkgreen;
+}
+#q {
+    font-family:"elephant"; 
+    color:darkorchid;
+}
+#r {
+    font-family:"Cooper Black"; 
+    color:darkseagreen;
+}
+#s {
+    font-family:"Bauhaus 93"; 
+    color:deeppink;
+}
+#t{
+    font-family:"Britannic Bold"; 
+    color:hotpink;
+}
+
+
+body {
+
+    background-image:url(d);
+     background-repeat:repeat;
+       height: 20px; 
+}
+
+.tiksha {
+
+  background-image: url(cole);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  bottom: 3%;
+  left: 20%;
+  right: 0%;
+  height: 30px;
+  width:50%;
+  	
+}
+	
+	
+	

@@ -1,0 +1,22 @@
+<html>
+    <body>
+        ENTER NUMBER:
+        <input type="text" id="t1"><br>
+        <input type="button" value="okk" onclick="rev()"><br>
+    </body>
+</html>
+<script>
+    function rev(){
+  var  n=document.getElementById("t1").value;
+  n=parseInt(n);
+  var r=0;
+  var d;
+  while(n>0){
+   d=n%10;
+   r=parseInt(r*10)+d;
+   n=parseInt(n/10);
+
+  }
+  alert(+r);
+}
+</script>

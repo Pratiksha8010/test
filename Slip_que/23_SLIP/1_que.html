@@ -1,0 +1,31 @@
+<html>
+<body>
+ENTER NUMBER:
+<input type="text" id="r1">
+<input type="button" value="okk" onclick="sum_d()">
+
+
+
+</body>
+</html>
+
+<script>
+function sum_d()
+{
+ var n=document.getElementById("r1").value;
+ var n= parseInt(n);
+var sum=0;
+var d;
+while(n>0){
+
+d=n%10;
+sum=sum+d;
+n=parseInt(n/10);
+
+}
+
+alert(sum);
+
+}
+
+</script>
